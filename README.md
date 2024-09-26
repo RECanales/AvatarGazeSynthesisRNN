@@ -1,2 +1,2 @@
 # AvatarGazeSynthesisRNN
- This is the code and model weights for our short paper "Real-Time Conversational Gaze Synthesis for Avatars", published at MIG '23.
+ This is the code and model weights for our short paper "Real-Time Conversational Gaze Synthesis for Avatars", published at MIG '23 ([here](https://dl.acm.org/doi/10.1145/3623264.3624446)). The script Model.py is currently set up to train the model with mirrored motion features and audio presence (Motion Aug + Audio (binary) in Table 1 in the paper). The trained model is in the models folder. I am working to restructure the code to work with variations of the input features.
